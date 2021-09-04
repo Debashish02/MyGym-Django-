@@ -1,0 +1,229 @@
+{% load static %}
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'gym/css/style.css' %}">
+    <link href='{% static "https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" %}' rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' %}">
+    <title>Project</title>
+</head>
+
+<body>
+
+    <header className="header1">
+        <div className="mid">
+       
+        </div>
+        <div className="heading">Fit Muscle</div>
+    </header>
+    
+    
+    <header className="header">
+        <div className="left">
+            <img src="{% static 'gym/images/gymlogo.jpg' %}">
+        <div>FM</div>
+        </div>
+    </header>
+
+    <img src="{% static "gym/images/equ1.jfif" %}" className="equ1">
+    <img src="gym/images/equ2.jfif" className="equ2">
+
+    <h2 className="h2">Benefits Of Gym</h2>
+    <p className="p1">Our gym is very friendly to all
+        we have all the necessary equiments.
+        from small to big we have all the euuiments.
+    </p>
+    <p className="p2">
+        Our membership is very cheaper in cost and
+        we promise it will worth it.
+    </p>
+
+    <div className="container">
+        <h1>Join the best gym of Delhi now</h1>
+        <form className="form">
+            <div className="form-group">
+                <input type="text" name="Name" placeholder="Enter your Name">
+            </div>
+            <br>
+            <div className="form-group">
+                <input type="text" name="Age" placeholder="Enter your Age">
+            </div>
+            <div className="form-group">
+                <input type="text" name="Gender" placeholder="Enter your Gender">
+            </div>
+            <div className="form-group">
+                <input type="text" name="Locality" placeholder="Enter your Locality">
+            </div>
+            <div className="form-group">
+                <input type="text" name="Email Id" placeholder="Enter your Email Id">
+            </div>
+            <div className="form-group">
+                <input type="text" name="Phone Number" placeholder="Enter your Phone Number">
+            </div>
+            <button className="btn">Submit</button>
+        </form>
+    </div>
+
+
+    <img src="{% static 'gym/images/gymbackground.jpg' %}" className="img1">
+
+
+    <header className="header">
+        <div className="left">
+            <img src="{% static 'gym/images/gymlogo.jpg' %}" alt="">
+            <div>FM</div>
+        </div>
+        
+        <div className="right">
+            <ul classNameName="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Membership Details</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </div>
+
+    </header>
+
+    <div className="fb">
+        <h1>Fit Muscle</h1>
+    </div>
+
+    <div className="eqi">
+        <div className="box">
+            <img src="{% static 'gym/images/eui1.jpg' %}" align="left" />
+        </div>
+        <div className="box">
+            <img src="{% static 'gym/images/eui2.jpg' %}" align="left" />
+        </div>
+    </div>
+
+    <div className="feat">
+        <p>
+            <li>
+                All-in-one membership with Unlimited access to top
+                gyms & classNamees with best-in-safety standards mandated
+                by the government
+            </li>
+            <li>
+                3 month freezing with no-questions-asked:
+                If you are busy to workout or not feeling comfortable you
+                can pause your OnePass & re-start later
+            </li>
+            <li>
+                Online Fitness Included: Online Fitness - Choose & attend from
+                over 100+ daily virtual workout & meditation classNamees over Zoom
+            </li>
+            <li>
+                Bring Gold’s Gym to your home with workouts like never before.
+                Workout and train with professionals who have multiple expertise.
+            </li>
+            <li>
+                Our trainers are trained on strength, agility, yoga, abs, combat, and cardio.
+                There is no way to miss workouts now. Our trainers reach your doorstep
+                with hygiene and fitness kits.
+            </li>
+        </p>
+    </div>
+    <br>
+
+    <!-- <div className="plant">
+        <img src="gym/gym/images/background1.jpg" alt="">
+    </div>
+
+    <div className="container">
+        <h1>Best Gym Of Mumbai</h1>
+        <form action="nonactio.php"
+            <div className="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div className="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div className="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+        </form>
+    </div> -->
+    <div className="mem">
+        <h1>Membership Details</h1>
+    </div>
+    <br>
+    <div className="flip-box">
+        <div className="flip-box-inner">
+            <div className="flip-box-front">
+                <img src="{% static 'gym/images/Flipimage1.jpg' %}" align="left">
+            </div>
+            <div className="flip-box-back">
+                <h1>Prime Membership</h1>
+                <p>Membership annual=800Rs</p>
+                <h1>Benefits of Prime Membership</h1>
+                <ul>
+                    <li>Premission to use all equiments</li>
+                    <li>Max 6 Hours Gym Access</li>
+                    <li>Scheduled Gym Access</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div className="flip-box1">
+        <div className="flip-box-inner1">
+            <div className="flip-box-front1">
+                <img src="{% static 'gym/images/Flipimage2.jpg' %}" align="right">
+            </div>
+            <div className="flip-box-back1">
+                <h1>Premium Membership</h1>
+                <p>Membership annual=1500Rs</p>
+                <h1>Benefits of Premium Membership</h1>
+                <ul>
+                    <li>Premission to use all euuiments</li>
+                    <li>Anytime Gym Access</li>
+                    <li>4 Months extended membership</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div className="login-box">
+        <img src="{% static 'gym/images/gymlogo.jpg' %}" className="avatar">
+        <h1>Login Here</h1>
+        <br>
+        <form>
+            <p>Username</p>
+            <input type="text" name="username" placeholder="Enter Username">
+            <p>Age</p>
+            <input type="text" name="text" placeholder="Enter Age">
+            <input type="submit" name="submit" value="Login">
+            <a href="#">Forget Password</a>
+        </form>
+
+    </div>
+
+    <div className="deb">
+        <img src="{% static 'gym/images/background.jpg' %}" alt="">
+    </div>
+
+    <div className="wrapper">
+        <img src="{% static 'gym/images/blackbackground.jpg' %}" alt="">
+        <p>This is a project by Debashish Muni
+            ADVANCED CSS AND SASS. Copyright by jones. You are 100%
+            allowed to use this webpage for both personal and commercial use,
+            but NOT to claim it as your own design. A credit to the original author,
+            jones,is of corse highly apperciated!
+        </p>
+    </div>
+
+    <div className="fin">
+        
+    </div>
+
+    <div className="media">
+        <ul>
+            <li><i className="fa fa-facebook-official" aria-hidden="true"></i></li>
+            <li><i className="fa fa-instagram" aria-hidden="true"></i></li>
+            <li><i className="fa fa-twitter" aria-hidden="true"></i></li>
+            <ul>
+
+
+</html>
